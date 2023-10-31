@@ -7,6 +7,7 @@ require("dotenv").config();
 
 // Routes
 const ComentarioRoutes = require("./src/routes/reviewRoute");
+const carouselControllers= require("./src/routes/carouselRoute");
 
 const app = express();
 
@@ -47,6 +48,7 @@ db.connect((err) => {
 
 // Setting Routes
 app.use("/api", ComentarioRoutes);
+app.use("/api", carouselControllers);
 
 // Export
 module.exports = app;
