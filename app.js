@@ -7,8 +7,8 @@ require("dotenv").config();
 
 // Routes
 const ComentarioRoutes = require("./src/routes/reviewRoute");
-const carouselControllers= require("./src/routes/carouselRoute");
-
+const CarouselRoutes = require("./src/routes/carouselRoute");
+const LoginRoute = require("./src/routes/loginRoute");
 const app = express();
 
 // Datos codificados en URL
@@ -48,7 +48,8 @@ db.connect((err) => {
 
 // Setting Routes
 app.use("/api", ComentarioRoutes);
-app.use("/api", carouselControllers);
+app.use("/api", CarouselRoutes);
+app.use("/api", LoginRoute);
 
 // Export
 module.exports = app;
