@@ -9,6 +9,10 @@ require("dotenv").config();
 const ComentarioRoutes = require("./src/routes/reviewRoute");
 const CarouselRoutes = require("./src/routes/carouselRoute");
 const LoginRoute = require("./src/routes/loginRoute");
+const RegistroRoute = require("./src/routes/registroRoute");
+const ResennasRoute =  require("./src/routes/resennasRoute");
+const OrdenesRoute =  require("./src/routes/ordenesRoute");
+const PersonasRoute =  require("./src/routes/personasRoute");
 const app = express();
 
 // Datos codificados en URL
@@ -50,6 +54,10 @@ db.connect((err) => {
 app.use("/api", ComentarioRoutes);
 app.use("/api", CarouselRoutes);
 app.use("/api", LoginRoute);
+app.use("/api", RegistroRoute);
+app.use("/api", ResennasRoute);
+app.use("/api", OrdenesRoute);
+app.use("/api", PersonasRoute);
 
 // Export
 module.exports = app;
