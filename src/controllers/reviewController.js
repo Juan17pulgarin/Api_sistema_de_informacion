@@ -1,7 +1,6 @@
 const consultaMySQL = require('../models/reviewModel');
 
 const ComentarioController = {
-  // Obtiene todos los comentarios
   getAllComentarios: (req, res) => {
     consultaMySQL.getAllResennas((err, comentarios) => {
       if (err) {
