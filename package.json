@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "test": "jest --coverage --verbose --runInBand --detectOpenHandles --force-exit",
-    "sonar": "sonar-scanner"
+    "test": "jest --coverage --verbose --runInBand --detectOpenHandles --force-exit"
   },
   "keywords": [],
   "author": "",
