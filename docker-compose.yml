@@ -1,0 +1,8 @@
+version: '3.9'
+services:
+  ecovida:
+    container_name: ecovida-backend
+    build:
+      context: ./
+    ports:
+      - 3278:3278
