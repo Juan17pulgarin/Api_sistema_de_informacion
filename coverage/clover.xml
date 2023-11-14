@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1700003252370" clover="3.2.0">
-  <project timestamp="1700003252370" name="All files">
-    <metrics statements="222" coveredstatements="127" conditionals="70" coveredconditionals="33" methods="56" coveredmethods="26" elements="348" coveredelements="186" complexity="0" loc="222" ncloc="222" packages="2" files="14" classes="14"/>
+<coverage generated="1700003634935" clover="3.2.0">
+  <project timestamp="1700003634935" name="All files">
+    <metrics statements="126" coveredstatements="63" conditionals="48" coveredconditionals="20" methods="31" coveredmethods="10" elements="205" coveredelements="93" complexity="0" loc="126" ncloc="126" packages="2" files="8" classes="8"/>
     <package name="controllers">
-      <metrics statements="150" coveredstatements="99" conditionals="50" coveredconditionals="33" methods="34" coveredmethods="26"/>
+      <metrics statements="79" coveredstatements="47" conditionals="30" coveredconditionals="20" methods="18" coveredmethods="10"/>
       <file name="carouselControllers.js" path="C:\Users\haibe\Downloads\Api_sistema_de_informacion\src\controllers\carouselControllers.js">
         <metrics statements="41" coveredstatements="9" conditionals="12" coveredconditionals="2" methods="10" coveredmethods="2"/>
         <line num="1" count="1" type="stmt"/>
@@ -95,89 +95,9 @@
         <line num="30" count="1" type="stmt"/>
         <line num="35" count="1" type="stmt"/>
       </file>
-      <file name="resenasController.js" path="C:\Users\haibe\Downloads\Api_sistema_de_informacion\src\controllers\resenasController.js">
-        <metrics statements="9" coveredstatements="9" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-      </file>
-      <file name="reviewController.js" path="C:\Users\haibe\Downloads\Api_sistema_de_informacion\src\controllers\reviewController.js">
-        <metrics statements="41" coveredstatements="24" conditionals="12" coveredconditionals="6" methods="10" coveredmethods="10"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="6" count="1" type="stmt"/>
-        <line num="7" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="8" count="0" type="stmt"/>
-        <line num="9" count="0" type="stmt"/>
-        <line num="10" count="0" type="stmt"/>
-        <line num="12" count="1" type="stmt"/>
-        <line num="18" count="1" type="stmt"/>
-        <line num="19" count="1" type="stmt"/>
-        <line num="20" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="22" count="0" type="stmt"/>
-        <line num="23" count="0" type="stmt"/>
-        <line num="25" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="26" count="0" type="stmt"/>
-        <line num="27" count="0" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-        <line num="37" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="38" count="0" type="stmt"/>
-        <line num="39" count="0" type="stmt"/>
-        <line num="40" count="0" type="stmt"/>
-        <line num="42" count="1" type="stmt"/>
-        <line num="48" count="1" type="stmt"/>
-        <line num="49" count="1" type="stmt"/>
-        <line num="50" count="1" type="stmt"/>
-        <line num="51" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="52" count="0" type="stmt"/>
-        <line num="53" count="0" type="stmt"/>
-        <line num="54" count="0" type="stmt"/>
-        <line num="56" count="1" type="stmt"/>
-        <line num="62" count="1" type="stmt"/>
-        <line num="63" count="1" type="stmt"/>
-        <line num="64" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="65" count="0" type="stmt"/>
-        <line num="66" count="0" type="stmt"/>
-        <line num="67" count="0" type="stmt"/>
-        <line num="69" count="1" type="stmt"/>
-        <line num="74" count="1" type="stmt"/>
-      </file>
-      <file name="settingsContoller.js" path="C:\Users\haibe\Downloads\Api_sistema_de_informacion\src\controllers\settingsContoller.js">
-        <metrics statements="21" coveredstatements="19" conditionals="6" coveredconditionals="5" methods="4" coveredmethods="4"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="6" count="2" type="stmt"/>
-        <line num="7" count="2" type="stmt"/>
-        <line num="8" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="9" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="1" type="cond" truecount="1" falsecount="1"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="17" count="1" type="stmt"/>
-        <line num="23" count="2" type="stmt"/>
-        <line num="24" count="2" type="stmt"/>
-        <line num="25" count="2" type="stmt"/>
-        <line num="26" count="2" type="cond" truecount="2" falsecount="0"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="28" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="31" count="1" type="stmt"/>
-        <line num="36" count="1" type="stmt"/>
-      </file>
     </package>
     <package name="models">
-      <metrics statements="72" coveredstatements="28" conditionals="20" coveredconditionals="0" methods="22" coveredmethods="0"/>
+      <metrics statements="47" coveredstatements="16" conditionals="18" coveredconditionals="0" methods="13" coveredmethods="0"/>
       <file name="carouselModel.js" path="C:\Users\haibe\Downloads\Api_sistema_de_informacion\src\models\carouselModel.js">
         <metrics statements="9" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
@@ -236,40 +156,6 @@
         <line num="31" count="0" type="stmt"/>
         <line num="33" count="0" type="stmt"/>
         <line num="39" count="1" type="stmt"/>
-      </file>
-      <file name="resenasModel.js" path="C:\Users\haibe\Downloads\Api_sistema_de_informacion\src\models\resenasModel.js">
-        <metrics statements="10" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="12" count="0" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="15" count="0" type="stmt"/>
-        <line num="16" count="0" type="cond" truecount="0" falsecount="2"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="19" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
-      </file>
-      <file name="reviewModel.js" path="C:\Users\haibe\Downloads\Api_sistema_de_informacion\src\models\reviewModel.js">
-        <metrics statements="9" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="21" count="0" type="stmt"/>
-        <line num="25" count="0" type="stmt"/>
-        <line num="29" count="0" type="stmt"/>
-        <line num="34" count="1" type="stmt"/>
-      </file>
-      <file name="settingsModel.js" path="C:\Users\haibe\Downloads\Api_sistema_de_informacion\src\models\settingsModel.js">
-        <metrics statements="6" coveredstatements="4" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="0"/>
-        <line num="1" count="1" type="stmt"/>
-        <line num="4" count="1" type="stmt"/>
-        <line num="11" count="1" type="stmt"/>
-        <line num="13" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="25" count="1" type="stmt"/>
       </file>
     </package>
   </project>

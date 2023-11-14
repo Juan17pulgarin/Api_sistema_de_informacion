@@ -1,7 +1,7 @@
 const loginController = require('../controllers/loginControllers');
 const loginModel = require('../models/loginModel');
 
-jest.mock('../../models/loginModel');
+jest.mock('../models/loginModel');
 
 describe('Login Controller', () => {
   let mockRequest;

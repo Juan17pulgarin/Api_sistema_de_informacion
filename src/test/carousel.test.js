@@ -1,7 +1,7 @@
-const carouselControllers = require('../../controllers/carouselControllers');
-const consultaMySQL = require('../../models/carouselModel');
+const carouselControllers = require('../controllers/carouselControllers');
+const consultaMySQL = require('../models/carouselModel');
 
-jest.mock('../../models/carouselModel'); 
+jest.mock('../models/carouselModel'); 
 
 describe('Carousel Controller', () => {
   describe('getAllComentarios', () => {

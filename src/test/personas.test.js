@@ -1,7 +1,7 @@
 const personasController = require('../controllers/personasControllers');
 const personasModel = require('../models/personasModels');
 
-jest.mock('../../models/personasModels');
+jest.mock('../models/personasModels');
 
 describe('Personas Controller', () => {
   let mockRequest;

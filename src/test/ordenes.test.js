@@ -1,7 +1,7 @@
 const ordenesController = require('../controllers/ordenesControllers');
 const consultaMySQL = require('../models/ordenesModel');
 
-jest.mock('../../models/ordenesModel');
+jest.mock('../models/ordenesModel');
 
 describe('Ordenes Controller', () => {
   it('should create an order successfully', () => {
